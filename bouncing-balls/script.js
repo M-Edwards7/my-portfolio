@@ -75,8 +75,9 @@ class Ball {
 }
 
 const balls = [];
+let numOfBalls = prompt("enter number of balls")
 
-while (balls.length < 10) {
+while (balls.length < numOfBalls) {
    const size = random(10,20);
    const ball = new Ball(
       // ball position always drawn at least one ball width
