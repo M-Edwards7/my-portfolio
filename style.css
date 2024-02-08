@@ -78,3 +78,7 @@ background-color: #bdbdbd;
     background-color: #bdbdbd;
 
 }
+.card img{
+  /* width:400px; */
+  height:400px
+}
